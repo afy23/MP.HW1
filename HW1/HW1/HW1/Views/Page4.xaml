@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HW1.Views.Page4">
+    <ContentPage.Content>
+        
+   
+            <StackLayout  >
+            <Label Text="Bu Dönem Yürütülen Lisans ve Lisansüstü Ders Bilgileri" VerticalTextAlignment="Start" TextColor="Red" FontSize="Medium"      />
+            <Label Text="BIL519 - İleri Algoritma Analizi" VerticalTextAlignment="Start"  TextColor="Black" FontSize="Small"     />
+            <Label Text="BIL551 - İleri Veri Tabanı Yönetim Sistemleri" VerticalTextAlignment="Start"  TextColor="Black" FontSize="Small"     />
+            <Label Text="BIL561 - Bulanık Sinir Ağları" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIL567 - Öneri Sistemlerine Giriş" VerticalTextAlignment="Start"  TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM101 - Bilgisayar Programlama I" VerticalTextAlignment="Start"  TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM203 - Mantık Tasarımı" VerticalTextAlignment="Start"  TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM207 - Bilgisayar Programlama III" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM209 - Yazılım Tasarlama ve Geliştirme Prensipleri" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM213 - Veri Yapıları ve Algoritmalar" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM302 - Bilgisayar Ağları" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM303 - Mikrobilgisayarlar" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM305 - Bilgisayar Organizasyonu" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM306 - İşletim Sistemleri" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM308 - Web Sunucu Programlama" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM309 - Yapay Us" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM313 - İleri Programlama Teknikleri" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM314 - Hesaplama Kuramı" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM405 - Proje Yönetimi" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM423 - Yazılım Mühendisliği" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM437 - Bilgisayar Mühendisliği Tasarımları" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM439 - Veritabanı Yönetim Sistemleri Uygulamaları" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM451 - MVC ile Web Sunucu Programlama" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM466 - Bulanık Mantık" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM478 - Yönetim Bilişim Sistemleri" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM488 - Örüntü Tanımaya Giriş" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM490 - Bilgi Erişim Sistemleri" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM492 - Tasarım Örüntüleri" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+            <Label Text="BIM493 - Mobil Programlama I" VerticalTextAlignment="Start"   TextColor="Black" FontSize="Small"     />
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

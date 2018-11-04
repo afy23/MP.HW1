@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HW1.Views.Page3">
+    <ContentPage.Content>
+       
+
+        <ListView x:Name="lstview" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout  >
+
+                            <StackLayout >
+                                <Label Text="Derslik 1"  VerticalTextAlignment="Start" TextColor="Red"></Label></StackLayout>
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B1.jpg" HeightRequest="150" WidthRequest="170"></Image></StackLayout>
+
+                            <StackLayout >
+                                <Label Text="Derslik 2" VerticalTextAlignment="Start"  TextColor="blue"></Label></StackLayout>
+
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B2.jpg" HeightRequest="150" WidthRequest="170"></Image></StackLayout>
+
+
+                            <StackLayout >
+                                <Label Text="Derslik 3" VerticalTextAlignment="Start"  TextColor="red"></Label></StackLayout>
+
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B3.jpg" HeightRequest="150" WidthRequest="170"></Image></StackLayout>
+
+                            <StackLayout >
+                                <Label Text="Derslik 4" VerticalTextAlignment="Start"  TextColor="blue"></Label></StackLayout>
+
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Class_B4.jpg" HeightRequest="150" WidthRequest="170"></Image></StackLayout>
+
+ 
+
+                            <StackLayout >
+                                <Label Text="lab 1"  VerticalTextAlignment="Start" TextColor="red"></Label>
+                            </StackLayout>
+
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/Documents/Lab_PC1.jpg" HeightRequest="150" WidthRequest="170"></Image>
+                            </StackLayout>
+
+
+
+                        </StackLayout>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>   
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>

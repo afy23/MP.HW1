@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HW1.Views.Page2">
+    <ContentPage.Content>
+
+        <ListView x:Name="lst" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout  >
+
+                            <StackLayout  >
+                                <Label Text="Dr.Öğr. Üyesi Ahmet ARSLAN" VerticalTextAlignment="Start" TextColor="Red"></Label>
+                            </StackLayout>
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/aarslan2.jpg" HeightRequest="150" WidthRequest="170"></Image>
+                            </StackLayout>
+
+                            <StackLayout >
+                                <Label Text="	Prof.Dr. Yaşar HOŞCAN" VerticalTextAlignment="End" TextColor="blue"></Label>
+                            </StackLayout>
+
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/yhoscan.jpg" HeightRequest="150" WidthRequest="170"></Image>
+                            </StackLayout>
+
+
+                            <StackLayout >
+                                <Label Text="	Öğr.Gör. Özgür ÖZŞEN " VerticalTextAlignment="Start" TextColor="red"></Label>
+                            </StackLayout>
+
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/oozsen.jpg" HeightRequest="150" WidthRequest="170"></Image>
+                            </StackLayout>
+
+                            <StackLayout >
+                                <Label Text="Araş.Gör. Emin Talip DEMİRKIRAN"  TextColor="blue"></Label>
+                            </StackLayout>
+
+
+                            <StackLayout >
+                                <Image Source="http://ceng.eskisehir.edu.tr/img/etdemirkiran.jpg" HeightRequest="150" WidthRequest="170"></Image>
+                            </StackLayout>
+
+
+
+                           
+
+
+                        </StackLayout>
+                    </ViewCell>
+
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
